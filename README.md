@@ -4,7 +4,10 @@ This is a demonstration of a perfect user account (login & registration) system 
 
 ## 📅 History
 
-This was originally started in 2020 using PHP 7 and a MySQL 5 database.
+This was originally started in 2020 using PHP 7 and a MySQL 5 database. This version is available on the [php brach](https://github.com/viral32111/account-system/tree/php) or [1.0.0 release](https://github.com/viral32111/account-system/releases/tag/1.0.0).
+
+In July of 2023, I uploaded the original project to GitHub and rewrote it to be a full-stack [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) MVC (C#/Razor) service using [Microsoft SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022). I chose this framework as I wanted to learn Microsoft SQL Server so I may aswell use Microsoft's other products, plus I have already made numermous full-stack web applications in the past using Node.js/MongoDB so it seemed silly to use that again.
+
 ## ⚖️ License
 
 Copyright (C) 2020-2023 [viral32111](https://viral32111.com).
