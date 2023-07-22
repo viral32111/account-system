@@ -1,10 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
 		<Nullable>enable</Nullable>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<RootNamespace>account_system</RootNamespace>
-	</PropertyGroup>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<RootNamespace>AccountSystem</RootNamespace>
 
+		<Title>Account System</Title>
+		<Authors>viral32111</Authors>
+		<Description>Demonstration of a perfect user account system.</Description>
+		<Copyright>Copyright (C) 2020-2023 viral32111</Copyright>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/viral32111/account-system</RepositoryUrl>
+		<NeutralLanguage>en-GB</NeutralLanguage>
+		<FileVersion>2.0.0</FileVersion>
+		<Version>$(FileVersion)</Version>
+		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
+		<AssemblyVersion>$(FileVersion)</AssemblyVersion>
+	</PropertyGroup>
 </Project>

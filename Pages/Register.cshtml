@@ -1,0 +1,42 @@
+@page
+@model RegisterModel
+@{
+	ViewData[ "Title" ] = "Register";
+}
+@section Scripts {
+	<script src="~/scripts/register.js" asp-append-version="true"></script>
+}
+
+<div>
+	<h1>Register</h1>
+	<p>Create a new account using the form below.</p>
+</div>
+
+<div>
+	<fieldset>
+		<legend>Register Account</legend>
+
+		@using ( Html.BeginForm( "Create", "Account", FormMethod.Post ) ) {
+			<label for="emailAddressInput">Email Address:</label>
+			<input id="emailAddressInput" name="emailAddress" type="email" placeholder="john@doe.com" minlength="3" required>
+
+			<label for="passwordInput">Password:</label>
+			<input id="passwordInput" name="password" type="password" placeholder="P4ssw0rd!" minlength="8" required>
+
+			<input id="registerButton" type="submit" value="Register">
+		}
+	</fieldset>
+</div>
+
+@{
+	string? message = ( string? ) TempData[ "Message" ];
+
+	if ( !string.IsNullOrEmpty( message ) ) {
+		<div>
+			<fieldset class="server-message">
+				<legend>Server Message</legend>
+				<p>@message</p>
+			</fieldset>
+		</div>
+	}
+}

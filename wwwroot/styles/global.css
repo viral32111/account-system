@@ -1,0 +1,110 @@
+
+* {
+	font-size: 14px;
+}
+
+body {
+	font-family: "Verdana", "Geneva", "Tahoma", sans-serif;
+	text-align: center;
+
+	width: 400px;
+	margin: 10px;
+}
+
+header, main, footer {
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+	border: 1px solid gray;
+
+	background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* Underline links when hovering over them */
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+form {
+	text-align: left;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 3px;
+}
+
+form input, button {
+	display: block;
+	box-sizing: border-box;
+
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 2px 3px;
+	border: 1px solid black;
+
+	outline: none;
+
+	font-size: 13px;
+}
+
+/* Remove margin-bottom from the last input in a form */
+form input[ type="submit" ] {
+	margin-bottom: 0px;
+}
+
+fieldset {
+	padding-top: 5px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px;
+	border: 1px solid black;
+
+	background-color: #efefef;
+}
+
+fieldset legend {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+fieldset.server-message {
+	margin-top: 10px;
+	padding-top: 0px;
+
+	background-color: #eafafc;
+}
+
+fieldset.server-message legend {
+	font-weight: bold;
+}
