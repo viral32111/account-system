@@ -1,5 +1,12 @@
 # Account System
 
+[![CI](https://github.com/viral32111/account-system/actions/workflows/ci.yml/badge.svg)](https://github.com/viral32111/account-system/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/viral32111/account-system/actions/workflows/codeql.yml/badge.svg)](https://github.com/viral32111/account-system/actions/workflows/codeql.yml)
+![GitHub tag (with filter)](https://img.shields.io/github/v/tag/viral32111/account-system?label=Latest)
+![GitHub repository size](https://img.shields.io/github/repo-size/viral32111/account-system?label=Size)
+![GitHub release downloads](https://img.shields.io/github/downloads/viral32111/account-system/total?label=Downloads)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/viral32111/account-system?label=Commits)
+
 This is a demonstration of a perfect user account (login & registration) system that I believe all websites should adopt.
 
 ## 📅 History
